@@ -10,4 +10,10 @@ An implementation of various useful classes for developing in a functional manne
 		<License>GPL-3</License>
 		<PackageTags>Functional; Either; Traverse</PackageTags>
 	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="docfx.console" Version="2.58.4">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
 </Project>
