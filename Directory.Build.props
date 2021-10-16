@@ -1,0 +1,19 @@
+<Project>
+    <Sdk Name="DotNet.ReproducibleBuilds.Isolated" Version="0.1.66" />
+    <PropertyGroup>		
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<LangVersion>10.0</LangVersion>
+
+        <GenerateDocumentation>true</GenerateDocumentation>
+
+        <!-- NuGet settings -->
+		<Authors>Julian Birch</Authors>
+		<Company>Petaurus</Company>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="DotNet.ReproducibleBuilds" Version="0.1.66" PrivateAssets="All"/>
+    </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+	    <PackageId>Petaurus.Functional</PackageId>
+	    <PackageVersion>0.0.1-alpha</PackageVersion>
+	    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Title>Petaurus Functional Programming Library</Title>
+	    <Description>
+An implementation of various useful classes for developing in a functional manner in idiomatic C#. 
+		</Description>
+		<License>GPL-3</License>
+		<PackageTags>Functional; Either; Traverse</PackageTags>
+	</PropertyGroup>
+</Project>
